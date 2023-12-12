@@ -7,7 +7,7 @@ class Main {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       parolaChiave = br.readLine();
     }
-    catch (IOException){
+    catch (IOException io){
       System.err.println("Errore lettura dati da tastiera");
     }
     System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
